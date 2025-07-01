@@ -40,7 +40,9 @@ pip install -r requirements.txt
 
 ### 4. Set Up `.env` File
 ```env
-GEMINI_API_KEY=your_gemini_api_key
+LITELLM_API_KEY=YOUR_aPI_KEY
+LITELLM_MODEL=gemini/MODEL
+LITELLM_PROVIDER=gemini
 ```
 
 > 💡 You need to [enable the Gemini API](https://aistudio.google.com/app/apikey) and use `gemini-1.5-flash` model.
